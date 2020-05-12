@@ -46,7 +46,7 @@
         <span class="heading-primary--main">Outdoors</span>
         <span class="heading-primary--sub">is where life happens</span>
       </h1>
-      <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+      <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
     </div>
   </header>
 
@@ -126,7 +126,7 @@
       </div>
     </section>
 
-    <section class="section-tours">
+    <section class="section-tours" id="section-tours">
       <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">
           Most popular tours
@@ -158,7 +158,7 @@
                   <p class="card__price-only">Only</p>
                   <p class="card__price-value">$297</p>
                 </div>
-                <a href="#" class="btn btn--white">Book now!</a>
+                <a href="#popup" class="btn btn--white">Book now!</a>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@
                   <p class="card__price-only">Only</p>
                   <p class="card__price-value">$497</p>
                 </div>
-                <a href="#" class="btn btn--white">Book now!</a>
+                <a href="#popup" class="btn btn--white">Book now!</a>
               </div>
             </div>
           </div>
@@ -218,7 +218,7 @@
                   <p class="card__price-only">Only</p>
                   <p class="card__price-value">$897</p>
                 </div>
-                <a href="#" class="btn btn--white">Book now!</a>
+                <a href="#popup" class="btn btn--white">Book now!</a>
               </div>
             </div>
           </div>
@@ -347,12 +347,34 @@
       </div>
       <div class="col-1-of-2">
         <p class="footer__copyright">
-          Website built by <a href="#" class="footer__link">Chi Josh</a> to illustrate my advanced CSS and SASS
+          Website built by <a href="https://www.linkedin.com/in/joshua-onyenwere/" class="footer__link">Chi Josh</a> to
+          illustrate my advanced CSS and SASS
           Copyright &copy;
         </p>
       </div>
     </div>
   </footer>
+
+  <div class="popup" id="popup">
+    <div class="popup__content">
+      <div class="popup__left">
+        <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+        <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+      </div>
+      <div class="popup__right">
+        <a href="#section-tours" class="popup__close">&times;</a>
+        <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+        <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read terms before booking</h3>
+        <p class="popup__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ullam vero optio
+          iste quae distinctio commodi deleniti expedita esse temporibus. Tempora error et earum, repellendus suscipit
+          impedit laboriosam, quidem tempore quos reiciendis atque nesciunt. Ea, quisquam accusamus quaerat ad quis
+          animi, eum ab asperiores praesentium aspernatur amet consectetur, sequi molestiae! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Magnam, blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quod doloremque doloribus, recusandae velit illo expedita?</p>
+        <a href="#" class="btn btn--green">Book now</a>
+      </div>
+    </div>
+  </div>
 
   <!--
   <section class="grid-test">
