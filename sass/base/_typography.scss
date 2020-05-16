@@ -25,8 +25,8 @@ body {
     animation-timing-function: ease-out;
 
     @include respond(phone) {
-      letter-spacing: 1rem;
-      font-size: 5rem;
+      letter-spacing: 0.8rem;
+      font-size: 3.5rem;
     }
 
     /*
@@ -46,6 +46,7 @@ body {
 
     @include respond(phone) {
       letter-spacing: 0.5rem;
+      font-size: 1.8rem;
     }
   }
 }
